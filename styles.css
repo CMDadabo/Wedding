@@ -1,0 +1,104 @@
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@font-face {
+	font-family: "Edwardian Script";
+	src: url(fonts/edwardian.ttf);
+}
+body {
+	padding-top: 50px;
+	font-family: Georgia, serif;
+	position: relative;
+}
+p {
+	color: #888;
+}
+.names {
+	font-family: "Playfair Display SC", Georgia, serif;
+	padding-bottom: 10px;
+}
+
+.linked-rings {
+	padding-top: 5px;
+	line-height: 16px;
+	font-size: 48px;
+	color: #FFD700;
+	text-align: center;
+}
+.linked-rings img {
+	padding-left: 2px;
+	padding-bottom: 5px;
+}
+.names h1 {
+	font-size: 4em;
+	margin: 0;
+	border-bottom: none;
+}
+
+.light-gold {
+	color: #FFEF99;
+}
+
+.gold {
+	color: #FFD700;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Edwardian Script";
+	font-size: 48px;
+	margin: 60px 10px 0;
+}
+
+em {
+	font-family: "Edwardian Script";
+}
+
+h2 {
+	font-family: 'Playfair Display SC', Georgia, serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #000059;
+	height: 30px;
+	min-height: 30px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-nav > li > a {
+	color: #FFF;
+}
+
+.nav > li > a:hover{
+	background-color: inherit;
+}
+
+.nav > li > a{
+
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.gold-outline {
+/*	border: 1px solid #FFD700;
+*/	padding: 15px;
+	box-shadow: 0 0 10px #DDD;
+}
