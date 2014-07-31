@@ -18,10 +18,19 @@
 	font-weight:normal;
 	font-style:normal;
 }
+
+/* Colors */
+@navy: #24517E;
+@sunrise: #EE9A78;
+
 body {
 	padding-top: 50px;
 	font-family: Georgia, serif;
 	position: relative;
+	height: 100%;
+}
+html {
+	height: 100%;
 }
 p {
 	color: #888;
@@ -35,29 +44,14 @@ p {
 	font-family: "Code2000";
 	line-height: 32px;
 	font-size: 42px;
-	color: #EE9A78;
+	color: @navy;
 	text-align: center;
 }
-.linked-rings img {
-	height: 20px;
-	padding-left: 2px;
-	padding-bottom: 5px;
-}
-.navy {
-	color: #24517E;
-}
+
 .names h1 {
 	font-size: 4em;
 	margin: 0;
 	border-bottom: none;
-}
-
-.light-gold {
-	color: #FFEF99;
-}
-
-.gold {
-	color: #FFD700;
 }
 
 h1 {
@@ -97,8 +91,9 @@ h2 {
 	background-color: inherit;
 }
 
-.nav > li > a{
-
+.nav > li.active > a{
+	background-color: @navy;
+	color: #FFF;
 }
 
 .navbar .navbar-nav {
